@@ -12,7 +12,7 @@ export interface ParseRelayClientOptions {
 const DEFAULT_BASE_URL = "https://api.parserelay.app";
 
 export class ParseRelayError extends Error {
-  /** Machine-readable error code from the body (see docs/ERRORS.md), if present. */
+  /** Machine-readable error code from the body, if present. */
   readonly code?: string;
 
   constructor(

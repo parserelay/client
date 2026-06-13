@@ -93,7 +93,7 @@ describe("ParseRelayClient", () => {
     expect(err).toBeInstanceOf(ParseRelayError);
     expect(err.status).toBe(429);
     expect(err.body).toEqual(body);
-    // parses the documented { error: { code, message } } shape (docs/ERRORS.md)
+    // parses the documented { error: { code, message } } shape
     expect(err.code).toBe("rate_limited");
     expect(err.message).toBe("slow down");
   });
