@@ -29,7 +29,7 @@
     "clean": "rm -rf dist"
   },
   "dependencies": {
-    "@parserelay/core": "workspace:*"
+    "@parserelay/core": "^0.1.0"
   },
   "devDependencies": {
     "typescript": "^5.4.0",
