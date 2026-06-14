@@ -1,6 +1,6 @@
 {
   "name": "@parserelay/client",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Thin REST client for the ParseRelay scan API.",
   "license": "MIT",
   "homepage": "https://parserelay.app",
